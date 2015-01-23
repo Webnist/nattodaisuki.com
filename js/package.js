@@ -7,7 +7,7 @@
 
 	$.ajax({
 		type: 'GET',
-		url: $remoteDomain + 'wp-json/menus/',
+		url: $remoteDomain + 'wp-json/posts/',
 		dataType: 'json'
 	}).done(function(json) {
 		console.log(json);
